@@ -1,0 +1,41 @@
+/* devanagari */
+@font-face {
+    font-family: 'Teko';
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/teko/v14/LYjCdG7kmE0gdQhfsCVgqGIu.woff2) format('woff2');
+    unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+}
+ 
+/* Fonte */
+body,div,span,p,section,footer,a,ul,li{
+    font-family: 'Teko';
+}
+
+/* Cores */
+body,.background-w2o{
+    background-color: #1B1B1B !important;
+    color: white;
+}
+.text-w2o{
+    color: #ea560b;
+}
+.conteudo{
+    background-color: #27272A;
+}
+.menu_left li a{
+    color: rgb(201, 201, 201);
+}
+
+/* menu lateral */
+.menu_left{
+    height: 100vh;
+}
+.menu_left li{
+    list-style: none;
+}
+.menu_left li a{
+    text-decoration: none;
+    font-size: 18px;
+}
